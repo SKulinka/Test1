@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>1_2</title>
+    <link rel="stylesheet" href="test1.css">
+</head>
+
+<body>
+    <audio id="audio">
+        <source src="audio/trx.mp3" type="audio/mpeg" />
+        <source src="audio/trx.ogg" type="audio/ogg" />
+        <p> К сожалению ваш браузер не поддерживает аудио</p>
+        <a href="audio/trx.mp3" download>Скачать</a>
+    </audio>
+    <div class="main">
+        <h2 class="h2">Costome audio player</h2>
+        <div class="audio">
+            <button class="audio_play button" id="playBtn">
+                <!-- <img class="img" src="img\play.svg"> -->
+            </button>
+            <button class="audio_pause button" id="pauseBtn"><img class="img" src="img\pause.svg"></button>
+            <button class="audio_stopp button" id="stopBtn"><img class="img" src="img\stop.svg"></button>
+            <div class="progress">
+                <progress id="progress" value="0" min="0">
+                    <span id="progress-bar"></span>
+                </progress>
+                <button class="audio_subtitles button" id="subBtn"><img class="img" src="img\sub.svg"></button>
+                <button class="audio_volUp button" id="volUpBtn"><img class="img" src="img\volUp.svg"></button>
+                <button class="audio_volDown button" id="volDBtn"><img class="img" src="img\volD.svg"></button>
+                <button class="audio_fullScreen button" id="fullDBtn"><img class="img" src="img\full.svg"></button>
+            </div>
+        </div>
+        <script src="test1.js"></script>
+</body>
+
+</html>

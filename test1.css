@@ -1,0 +1,62 @@
+
+body{
+    margin: 10%;
+    padding: 0;
+    width: 100;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: beige;
+}
+.main{
+    
+    padding: 15px;
+    border-radius: 20px;
+    border:1px solid black;
+    background-color: blanchedalmond;
+
+}
+.h2{
+    font-size: 60px;
+    text-align: center;
+    
+}
+.audio{
+    display: flex;
+    column-gap:  2rem;
+    }
+.img {
+    width: 100%;
+}
+.button{
+    
+    width: 10px;
+    padding: 10px 15px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .2s all;
+     float: bottom; 
+
+
+}
+.button:hover {
+    transform: scale(1.1);
+}
+
+.audio_play{
+    color: black;
+    background-color: none;
+    border:1px solid black;
+}
+
+.audio_pause{
+    color: black;
+    background-color:none;
+    border:1px solid black;
+}
+.audio_stop{
+    color: black;
+    background-color:none;
+    border:1px solid black;
+}
+
